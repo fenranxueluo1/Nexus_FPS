@@ -1,0 +1,42 @@
+MIT License
+
+Copyright (c) 2026 纷染雪落
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+补充说明
+
+1. 本许可证适用于本仓库中由作者编写的代码（src/ 与 shaders/）以及构建脚本
+   (CMakeLists.txt)。
+
+2. src/ 与 shaders/ 中的代码改写自 Khronos Group 的课程示例
+   "How to write a Vulkan application in 2026"
+   (https://github.com/KhronosGroup/Vulkan-Tutorial)，
+   原始代码版权归 Khronos Group and contributors 所有，同样以 MIT 许可发布。
+   依据 MIT 许可的要求，原始版权声明保留在本文件与 THIRD_PARTY_NOTICES.md 中；
+   为保持源码整洁，源文件内不再逐文件重复版权声明。
+   作者仅对本人新增与改写的部分主张著作权。
+
+3. 第三方库（GLFW、vk-bootstrap、Dear ImGui、glm、nlohmann/json、stb、tinygltf）
+   与 Vulkan SDK 均不随本仓库分发，由构建系统从本地依赖目录引入，各自遵循其原有许可。
+   详见 THIRD_PARTY_NOTICES.md。
+
+4. 场景资源（assets/）中的 Sponza 模型采用 Cryengine Limited License Agreement，
+   不在本仓库的 MIT 许可范围内，亦不可再分发。
